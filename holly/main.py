@@ -2,15 +2,15 @@ from tkinter import *
 
 root = Tk()
 root.title('Home')
-root.state('zoomed')
+root.wm_attributes('-fullscreen', 1)
 
 root.rowconfigure(0, weight=1)
 root.columnconfigure(0, weight=1)
 
-main_page = Frame(root)
-
 def show_frame(frame):
     frame.tkraise()
+
+main_page = Frame(root)
 
 show_frame(main_page)
 
