@@ -8,10 +8,20 @@ class GUI:
         root.rowconfigure(0, weight=1)
         root.columnconfigure(0, weight=1)
 
-        main_page = Frame(root)
+        header_font = ("Gills Sans", 50, "bold")
+        Label(text='Holly says hi', font=header_font).pack(pady=40)
 
-        header = Label(main_page, text='Welcome to Holly', font='times 50 bold', bg='Skyblue', anchor=N, pady=50)
-        header.pack(fill='both')
+        user_input = Entry(font='times 30', width=50, bd=20).pack(pady=250)
+
+class Chatbot:
+    def all_greetings():
+        greetings = [
+            "Goodmorning",
+            "How are you?",
+            "How have you been",
+            "What's up",
+            "Wake up"
+        ]
     
 root = Tk()
 GUI(root)
