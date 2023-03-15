@@ -1,4 +1,4 @@
 bin/
 include/
 lib/
-/holly/pyvenv.cfg
+pyvenv.cfg
