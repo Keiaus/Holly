@@ -4,3 +4,7 @@ Holly is an open source chatbot device used for keeping your friends and family 
 
 The Way it Works
 ---
+
+Sources
+---
+```https://pytorch.org/tutorials/beginner/chatbot_tutorial.html```
