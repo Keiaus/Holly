@@ -1,2 +1,2 @@
 # Holly
-A Chatbot made in Python using Tkinter
+A chatbot made in Python using Tkinter
