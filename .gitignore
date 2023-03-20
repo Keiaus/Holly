@@ -3,6 +3,7 @@ include/
 lib/
 pyvenv.cfg
 __pycache__
-movie-corpus
 .DS_Store
 share
+*.json
+*.jsonl
