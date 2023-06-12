@@ -17,6 +17,6 @@ class GUI:
         generate_user_input = Button(text="Generate", font='times 20 bold', background='Skyblue', fg='black').pack()
     
 root = Tk()
-root.configure(bg="Grey")
+root.configure(bg="Grey") 
 GUI(root)
 root.mainloop()

@@ -2,7 +2,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
-
+from convokit import Corpus, download
 import torch
 from torch.jit import script, trace
 import torch.nn as nn
@@ -21,7 +21,7 @@ import json
 
 USE_CUDA = torch.cuda.is_available()
 device = torch.device("cuda" if USE_CUDA else "cpu")
-
+corpus_download = Corpus(filename=download("movie-corpus"))
 corpus_name = "movie-corpus"
 corpus = os.path.join("data", corpus_name)
 
